@@ -1,0 +1,8 @@
+import sqlite3
+
+conn = sqlite3.connect('tes.db')
+print "Opened database successfully";
+
+conn.execute("DELETE from posts where title=sddd;")
+conn.commit
+conn.close()

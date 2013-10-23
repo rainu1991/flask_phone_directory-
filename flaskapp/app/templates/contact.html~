@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+  {% block content %}
+  <h2>Contact</h2>
+  <p><center>This page for adding contacts to Phone directory</center></p>
+ <h3><a href='/post'>Click here to add contact</a><h3>
+{% endblock %}
